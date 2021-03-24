@@ -1,0 +1,41 @@
+KEYWORDS:
+
+	print	input	True	False	$	int	float	char	string	bool
+
+
+
+
+ASSIGNING VARIABLE SYNTAX:
+
+	<datatype><variable-name> = <expression> | <values> | $<variable-name>
+	
+	<datatype>(<variable-name> | <variable-name> = <values>),...
+
+	*for declared variables without value
+		$<variable-name> = <expression> | <values> | $<variable-name>
+
+-----------------------------------------------------------------------------------------------------------
+		<values> = <val_int> | <val_float> | '<char>' | "<string>" | <val_bool>
+
+		<datatype> = <int> | <float> | <char> | <string> | <bool>
+
+		<expression> = <regular-expression> | <logical-expression>
+-----------------------------------------------------------------------------------------------------------
+
+
+*<logical-expression> can only be assigned to 'bool' datatype
+
+
+PRINT FUNCTION:
+
+	print (<values> | <expression> | $<variable-name>)
+
+INPUT FUNCTION:
+
+	input <string-label> <datatype> <variable-name>
+
+	input <datatype> <variable-name>
+
+COMMENT:
+	
+	*<string>
